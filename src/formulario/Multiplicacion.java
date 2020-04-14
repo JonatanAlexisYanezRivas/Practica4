@@ -22,10 +22,10 @@ public class Multiplicacion extends javax.swing.JInternalFrame {
     private void cerrar(){
         String botones [] = { "Cerrar" , "Cancelar"};
         int respuesta = JOptionPane.showOptionDialog(this,"Deseas cerrar la ventana", "Confirmacion", 0, 0, null, botones, this);
-        if (respuesta== JOptionPane.YES_OPTION);
+        if (respuesta== JOptionPane.YES_OPTION){
         this.dispose();
-     } 
-
+        }         
+     }
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
